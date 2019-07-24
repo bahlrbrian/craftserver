@@ -16,7 +16,11 @@ Prerequisites for this Guide:
 
 * Create Craft project within the `htdocs/` directory by using `$ composer create-project craftcms/craft <Project Name>` per [Craft CMS Installation Notes](https://docs.craftcms.com/v3/installation.html#step-1-download-craft) 
 
-* Create database in MAMP phpmyadmin (or whatever database management you use, like [Sequel Pro](https://sequelpro.com/download))
+### MAMP Setup
+
+* Create New Host, name host, assign `<Project Root>/ web` as the root folder, create database with host.
+
+* Save, Restart MAMP servers.
 
 
 ### From Project Root
@@ -24,12 +28,6 @@ Prerequisites for this Guide:
 * Edit `.env` file to add database name, username and password.
 
 * Add [Craft CMS Boilerplate](https://github.com/bgcbrianclark/craftcms-biolerplate) Files and Folders
-
-### MAMP Setup
-
-* Create New Host, name host, assign `<Project Root>/ web` as the root folder
-
-* Restart MAMP servers.
 
 * Build Site.
 
