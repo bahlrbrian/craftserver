@@ -27,7 +27,7 @@ Prerequisites for this Guide:
 
 * Edit `.env` file to add database name, username and password.
 
-* Add [Craft CMS Boilerplate](https://github.com/bgcbrianclark/craftcms-biolerplate) Files and Folders
+* Follow instructions in [Craft CMS Boilerplate](https://github.com/bgcbrianclark/craftcms-biolerplate)
 
 * Build Site.
 
